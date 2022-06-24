@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+const gitDefinition = `Git is a version control system that allowes you to overwrite, move, rename, and save snapshots of the current version of tracked files on your computer and GitHub. Git has a few other commands that do different tasks.`
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+const gitHubDefinition = `GitHub is a site where you can create and save repositories(repos) for others to view and collaborate.`
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -26,6 +28,7 @@
 */
 
 //CODE HERE
+const gitInitDefinition = `Initializes a local repository right here in this folder.`
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -34,6 +37,7 @@
 */
 
 //CODE HERE
+const gitCloneDefinition = `Creates a copy of a repository in your files.`
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -42,6 +46,7 @@ Create a variable called 'gitStatusDefinition'.
 */
 
 //CODE HERE
+const gitStatusDefinition = `Gives details about the repo. It's like saying "Tell me about this repository."`
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -53,6 +58,9 @@ Create a variable called 'gitStatusDefinition'.
 */
 
 //CODE HERE
+const gitAddDefinition = `This command adds some files to be tracked (always!)`
+
+const gitAddCode = `git add .`
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -64,7 +72,8 @@ Create a variable called 'gitStatusDefinition'.
 */
 
 //CODE HERE
-
+const gitCommitDefinition = `This command creates a snapshot of the files I'm tracking.`
+const gitCommitCode = 'git commit -m "initial commit"'
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +82,4 @@ Create a variable called 'gitStatusDefinition'.
 */
 
 //CODE HERE
+const gitPushDefinition = `Pushes the commit to GitHub repository.`
